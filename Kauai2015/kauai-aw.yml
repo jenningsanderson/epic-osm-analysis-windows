@@ -1,0 +1,27 @@
+#Analysis Window Information
+start_date: '2015-01-01 00:00:00Z'
+end_date:   '2016-01-01 00:00:00Z'
+
+bbox: '-159.787827,21.868277,-159.292313,22.234997'
+
+#Database & IO Configuration
+pbf_file: '/data/osm_files/splitter-exports/north-america/hawaii.osh.pbf'
+database: 'kauai'
+write_directory: '/data/www/kauai'
+
+#User Information
+title: 'Kauai 2015 Edits'
+email: 'jennings.anderson@colorado.edu'
+
+User Questions:
+ - new_user_count
+ - experienced_user_count
+ - total_user_count			#These are cumulative, but the database needs to be be updated
+
+#Changeset Questions:
+#- changesets_x_hour 		#This is cumulative -- but the database is incomplete
+
+#Way Questions:
+#- number_of_ways_per_tag
+#- number_of_buildings_per_tag
+#-number_of_highways_per_tag

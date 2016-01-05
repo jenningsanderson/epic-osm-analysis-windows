@@ -1,0 +1,22 @@
+---
+###Project Information
+title: '2010 Haiti Earthquake Co-Editing Networks'
+
+###Where the data live
+baseurl: '../'
+www: '/data/www/haiti-co-edit'
+---
+
+##Co-Editing Objects Networks - 8 Hours
+
+```
+var options = {
+				title: 'Co-Editing Objects Network',
+				id: 'coediting_objects',
+				path:  '/haiti-networks/co_editing_objects_8hour/',
+				network: {directed:true}
+			  }
+
+```
+
+{{ osmviz.network('dynamic_choice', options) }}
