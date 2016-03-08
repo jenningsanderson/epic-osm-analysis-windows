@@ -11,8 +11,8 @@ pbf_file: 'spec/import/test_files/central-america.osh.pbf'
 database: 'haiti'
 
 #Analysis Window Information
-start_date: '2010-01-11 19:00:00 -0700'
-end_date:   '2010-02-11 19:00:00 -0700'
+start_date: '2010-01-14 19:00:00 -0700'
+end_date:   '2010-01-17 19:00:00 -0700'
 
 #Bounding Box:
 bbox: '-74.5532226563,17.8794313865,-71.7297363281,19.9888363024' #Expecting 4 parameters
